@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "source": "functions",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "*.local"
+    ],
+    "endpoints": {
+      "api": {
+        "region": "us-central1",
+        "allowUnauthenticated": true,
+        "entryPoint": "api",
+        "httpsTrigger": {}
+      }
+    }
+  }
+}
